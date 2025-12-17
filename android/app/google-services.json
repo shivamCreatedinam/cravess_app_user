@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1074753757491",
+    "project_id": "cravess-restaurant",
+    "storage_bucket": "cravess-restaurant.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074753757491:android:0db84de3fc8cc8a8675e46",
+        "android_client_info": {
+          "package_name": "com.createdinam.india.cravessrestro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFOf8nm80UvdvrQBBhRyLQmb-wtQtakDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

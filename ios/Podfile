@@ -23,6 +23,9 @@ target 'CravessRestro' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  # Firebase requires modular headers
+  use_modular_headers!
+
   target 'CravessRestroTests' do
     inherit! :complete
     # Pods for testing
