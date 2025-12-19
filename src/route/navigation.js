@@ -47,6 +47,7 @@ import RecentOrdersScreen from '../screens/RecentOrdersScreen';
 import MyMenuScreen from '../screens/MyMenuScreen';
 import RestaurantProfileScreen from '../screens/RestaurantProfileScreen';
 import NotificationsScreen from '../screens/NotificationsScreen';
+import RestaurantBarcodeScreen from '../screens/RestaurantBarcodeScreen';
 
 // Create a stack navigator
 const Stack = createStackNavigator();
@@ -212,6 +213,7 @@ const Navigation = () => {
                 <Stack.Screen name="MyMenuScreen" component={MyMenuScreen} />
                 <Stack.Screen name="RestaurantProfileScreen" component={RestaurantProfileScreen} />
                 <Stack.Screen name="NotificationsScreen" component={NotificationsScreen} />
+                <Stack.Screen name="RestaurantBarcodeScreen" component={RestaurantBarcodeScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );

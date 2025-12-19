@@ -174,6 +174,13 @@ const RestaurantProfileScreen = () => {
       showArrow: true,
     },
     {
+      id: '5.5',
+      title: 'Restaurant QR Code',
+      icon: 'qr-code-outline',
+      onPress: () => navigation.navigate('RestaurantBarcodeScreen'),
+      showArrow: true,
+    },
+    {
       id: '6',
       title: getString('profile.helpSupport'),
       icon: 'help-circle-outline',
